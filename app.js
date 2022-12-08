@@ -53,7 +53,7 @@ if ((day <= 23 && month === "сентябрь") || (day <= 16 && month === "ок
 ) {
   console.log("В О Д О Л Е Й");
 } else if (
-  (day >= 19 && day <= 31 && month === "февраль") ||
+  (day >= 19 && day <= 28 && month === "февраль") ||
   (day <= 21 && month === "март")
 ) {
   console.log("Р Ы Б Ы");

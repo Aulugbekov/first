@@ -1,6 +1,6 @@
 var day = Number(prompt("введите дату рождения"));
 var month = prompt("Введите месяц рождения");
-if ((day <= 23 && month === "сентябрь") || (day <= 16 && month === "октябрь")) {
+if ((day >= 23 && month === "сентябрь") || (day <= 16 && month === "октябрь")) {
   console.log("В Е С Ы");
 } else if (
   (day >= 23 && day <= 31 && month === "октябрь") ||
@@ -48,7 +48,7 @@ if ((day <= 23 && month === "сентябрь") || (day <= 16 && month === "ок
 ) {
   console.log("К О З Е Р О Г");
 } else if (
-  (day = 20 && day <= 31 && month === "январь") ||
+  (day >= 20 && day <= 31 && month === "январь") ||
   (day <= 18 && month === "февраль")
 ) {
   console.log("В О Д О Л Е Й");

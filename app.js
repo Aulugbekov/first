@@ -1,4 +1,4 @@
-var days = "tuesday";
+var days = "thursday";
 
 switch (days) {
   case "Sunday":
@@ -58,10 +58,10 @@ var serial = {
 };
 
 console.log(typeof serial);
-console.log(serial.serialName);
-console.log(serial.releaseDate);
-console.log(serial.mainActor);
-console.log(serial.episodes);
-console.log(serial.aboutSerial.whatIsTheSerialAbout);
-console.log(serial.aboutSerial.mainAutor);
-console.log(serial.aboutSerial.interestingFacts);
+console.log("Названия сериала - " + serial.serialName);
+console.log("Дата выхода - " + serial.releaseDate);
+console.log("Главные актеры - " + serial.mainActor);
+console.log("Эпизоды сериала - " + serial.episodes);
+console.log("О чем сериал - " + serial.aboutSerial.whatIsTheSerialAbout);
+console.log("Главный автор идеи - " + serial.aboutSerial.mainAutor);
+console.log("Интересные факты - " + serial.aboutSerial.interestingFacts);
